@@ -31,5 +31,16 @@ public class Test1Test {
         // TODO review the generated test code and remove the default call to fail.
      
     }
+      @Test
+    public void testaddNumbers() {
+        //System.out.println("greet");
+        Test1 instance = new Test1();
+       // String expResult = "";
+      //  String result = instance.greet();
+        assertEquals(5, instance.addNumbers(2,3));
+        // TODO review the generated test code and remove the default call to fail.
+     
+    }
     
 }
+

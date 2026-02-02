@@ -25,7 +25,7 @@ public class Test1Test {
     public void testGreet() {
         System.out.println("greet");
         Test1 instance = new Test1();
-        String expResult = "";
+        String expResult = "Hello";
         String result = instance.greet();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -43,4 +43,5 @@ public class Test1Test {
     }
     
 }
+
 
